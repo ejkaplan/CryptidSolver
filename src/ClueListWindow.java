@@ -38,7 +38,7 @@ class ClueListWindow extends PApplet {
             text(clues.get(i).toString(), 0, (i + 1) * 12);
         }
         textAlign(CENTER, BOTTOM);
-        text("Cryptid is on one of " + parent.possibleSpacesCount() + " spaces.", width/2, height);
+        text("Cryptid is on one of " + parent.possibleSpacesCount() + "/108 spaces.", width/2, height);
     }
 
     public void keyPressed() {
